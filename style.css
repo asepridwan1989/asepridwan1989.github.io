@@ -1,0 +1,72 @@
+.header{
+	background:url("buat profil.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:200px;
+	height:200px;
+	border-radius:200px;
+	margin-left:50px;
+	margin-bottom:-10px;
+	margin-top:15px;
+	}
+.welcome{
+	margin-left:320px;
+	font-size:30px;
+	color:white;
+	font-family:"Courier New", Courier, monospace;
+	}
+.about{
+	margin-left: 350px;
+	font-size:18px;
+	text-align:center;
+	border:solid;
+	width:100px;
+	height:30px;
+	border-color: white;
+	border-width:thin;
+	color:white;
+	}
+
+.tutup{
+	height:320px;
+	width:320px;
+	padding-top: 10px;
+	border-radius:300px;
+	background-color:black;
+	margin-top:-75px;
+	position:static;
+	}
+.banner{
+	height: 205px;
+	width: 800px;
+	background-color:#09C;
+	overflow:hidden;
+	position:relative;
+	padding-top:10px;
+	margin-top:10px;
+	border-radius:50px;
+	border-color:transparent;
+	}
+.text{
+    margin:70px;
+	text-size: 18px;
+	overflow:visible;
+  }
+
+.text:hover{
+	color:#CF9;
+	text-family:"sans";
+	}
+a{text-decoration:none}
+#wrapper {
+     width: 800px;
+     margin: 0 auto;
+}
+
+.footer{
+	margin-top:500px;
+	width: margin: 0 auto;
+	text-align:left;
+	background-color:#C69;
+	}
