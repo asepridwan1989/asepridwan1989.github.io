@@ -1,63 +1,189 @@
 .header{
-	background:url("buat profil.jpg");
+	background:url("buatprofil.jpg");
 	background-size:100% 100%;
 	background-repeat:no-repeat;
 	background-position:center;
-	width:205px;
+	width:200px;
 	height:200px;
 	border-radius:200px;
-	margin-left:50px;
-	margin-bottom:-10px;
-	margin-top:15px;
+	margin-left:60px;
+
 	}
 .welcome{
-	margin-left:320px;
+	margin-left:300px;
+	margin-top: 10px;
 	font-size:30px;
 	color:white;
 	font-family:"Courier New", Courier, monospace;
+	position:fixed;
 	}
+/*--------buat navigasi---------*/
+.naviatas{
+	margin-top:-42px;
+	margin-left:280px;
+	}
+	
+.navibawah{
+	margin-top:35px;
+	margin-left:340px;
+	}
+	
 .about{
-	margin-left: 350px;
+
 	font-size:18px;
 	text-align:center;
 	border:solid;
 	width:100px;
 	height:30px;
-	padding-top: 5px;
+	padding-top: 10px;
 	border-color: white;
 	border-width:thin;
 	color:white;
+	position:fixed;
+	margin-left:110px;
 	}
+	
+.about:hover{
+	font-size:19px;
+	}
+	
+.education{
+	font-size:18px;
+	text-align:center;
+	border:solid;
+	width:100px;
+	height:30px;
+	padding-top: 10px;
+	border-color: white;
+	border-width:thin;
+	color:white;
+	position:fixed;
+	margin-left:220px;
+	}
+	
+.education:hover{
+	font-size:19px;
+	}
+.experience{
+	font-size:18px;
+	text-align:center;
+	border:solid;
+	width:100px;
+	height:30px;
+	padding-top: 10px;
+	border-color: white;
+	border-width:thin;
+	color:white;
+	position:fixed;
+	margin-left:330px;
+	}
+	
+.experience:hover{
+	font-size:19px;
+	}
+	
+.tns{
 
+	font-size:18px;
+	text-align:center;
+	border:solid;
+	width:370px;
+	height:30px;
+	padding-top: 10px;
+	border-color: white;
+	border-width:thin;
+	color:white;
+	position:fixed;
+	}
+	
+.tns:hover{
+	font-size:19px;
+	}	
+.home{
+	width:40px;
+	height:40px;
+	border-radius:65px;
+	border:1px solid white;
+	margin-top:55px;
+	margin-left:340px;
+	}
+.logohome{
+ width:30px;
+ height:30px;
+ padding:3.5px;
+ position:fixed;
+}
+
+.logohome:hover{
+ width:35px;
+ height:35px;
+ }
+ /*-------------------------------------------------*/
 .tutup{
 	height:320px;
 	width:320px;
 	padding-top: 10px;
 	border-radius:300px;
-	background-color:black;
-	margin-top:-75px;
+	background-color:white;
+	margin-top:-155px;
+	margin-left:-20px;
 	position:static;
 	}
 .banner{
-	height: 205px;
+	height: 175px;
 	width: 800px;
 	background-color:#09C;
 	overflow:hidden;
-	position:relative;
-	padding-top:10px;
-	margin-top:10px;
-	border-radius:50px;
-	border-color:transparent;
+	position:fixed;
+	margin-top:-185px;;
+	border-radius:20px 20px 0px 0px;
+	z-index:999;
 	}
-.text{
-    margin:70px;
+.isi{
+	alignment-baseline:central;
+    width:800px;
+	height:750px;
+	margin-top:190px;;
 	text-size: 18px;
-	overflow:visible;
-  }
-
-.text:hover{
-	color:#CF9;
-	text-family:"sans";
+	border:0px solid;
+	overflow:scroll;
+	overflow-x: hidden;
+	}
+	
+.isiaboutme{
+	margin-top:-580px;
+	text-align:center;
+	color:#666;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}	
+.isieducation{
+	margin-top:-630px;
+	text-align:center;
+	color:#000;
+	}
+.isitraining{
+	margin-top:-600px;
+	text-align:center;
+	color:#000;
+	}
+.isiexperience{
+	margin-top:-630px;
+	text-align:center;
+	color:#000;
+	}
+.homeimage{
+	height:650px;
+	width:800px;
+	align:center;
+	opacity:0.45;
+	overflow:hidden;
+	}
+.quote{
+	margin-top:-390px;
+	text-align:center;
+	font-size:50px;
+	font-family:Monotype Corsiva, Times, Serif;
+	color:#666;
 	}
 a{text-decoration:none}
 #wrapper {
@@ -66,8 +192,81 @@ a{text-decoration:none}
 }
 
 .footer{
-	margin-top:500px;
-	width: margin: 0 auto;
+	margin-top:auto;
+	width: 800px;
+	height:75px;
 	text-align:left;
-	background-color:#C69;
+	background-color:#09C;
+	border-radius: 0px 0px 20px 20px;
+	font-size:14px;
+	}
+/*-------------------------id-------------------------*/
+#home{
+
+}
+#aboutme{
+	margin-top:322px;
+	height:600px;
+	width:800px;
+	}
+.aboutmeimage{
+	margin-top:-50px;
+	height:650px;
+	width:810px;
+	opacity:0.50;
+	}
+#experience{
+	margin-top:5px;
+	height:600px;
+	width:800px;
+	}	
+.educationimage{
+	height:650px;
+	width:810px;
+	opacity:0.25;	
+	}
+.experienceimage{
+	height:650px;
+	width:810px;
+	opacity:0.25;	
+	}
+.experienceimage2{
+	height:550px;
+	width:810px;
+	opacity:0.2;	
+	margin-top:50px;
+}
+.trainingimage{
+	height:650px;
+	width:800px;
+	opacity:0.15;	
+	margin-top:-5px;
+	}
+.trainingimage2{
+	height:650px;
+	width:800px;
+	opacity:0.15;	
+	margin-top:-261px;
+	}
+li{
+	font-size:24px;
+	text-align:left;
+	margin-top:7.5px;
+	
+	}
+.bot{
+	Text-align:left;
+	color:white;
+	margin-top:-13px;
+	margin-left:40px;
+	font-size:12px;
+	}
+.ftext{
+	margin-left:40px;
+	margin-top:1px;
+	padding-top:10px;
+	color:white;
+	}
+#tns{
+	
 	}
