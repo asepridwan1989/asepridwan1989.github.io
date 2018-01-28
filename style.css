@@ -22,12 +22,12 @@
 	margin-top:-42px;
 	margin-left:280px;
 	}
-	
+
 .navibawah{
 	margin-top:35px;
 	margin-left:340px;
 	}
-	
+
 .about{
 
 	font-size:18px;
@@ -42,11 +42,11 @@
 	position:fixed;
 	margin-left:110px;
 	}
-	
+
 .about:hover{
 	font-size:19px;
 	}
-	
+
 .education{
 	font-size:18px;
 	text-align:center;
@@ -60,7 +60,7 @@
 	position:fixed;
 	margin-left:220px;
 	}
-	
+
 .education:hover{
 	font-size:19px;
 	}
@@ -77,11 +77,11 @@
 	position:fixed;
 	margin-left:330px;
 	}
-	
+
 .experience:hover{
 	font-size:19px;
 	}
-	
+
 .tns{
 
 	font-size:18px;
@@ -95,10 +95,10 @@
 	color:white;
 	position:fixed;
 	}
-	
+
 .tns:hover{
 	font-size:19px;
-	}	
+	}
 .home{
 	width:40px;
 	height:40px;
@@ -149,13 +149,13 @@
 	overflow:scroll;
 	overflow-x: hidden;
 	}
-	
+
 .isiaboutme{
 	margin-top:-580px;
 	text-align:center;
 	color:#666;
 	font-family:Georgia, "Times New Roman", Times, serif;
-	}	
+	}
 .isieducation{
 	margin-top:-630px;
 	text-align:center;
@@ -219,47 +219,52 @@ a{text-decoration:none}
 	margin-top:5px;
 	height:600px;
 	width:800px;
-	}	
+	}
 .educationimage{
 	height:650px;
 	width:810px;
-	opacity:0.25;	
+	opacity:0.25;
 	}
 .experienceimage{
 	height:650px;
 	width:810px;
-	opacity:0.25;	
+	opacity:0.25;
 	}
 .experienceimage2{
 	height:550px;
 	width:810px;
-	opacity:0.2;	
+	opacity:0.2;
 	margin-top:50px;
 }
 .trainingimage{
 	height:650px;
 	width:800px;
-	opacity:0.15;	
+	opacity:0.15;
 	margin-top:-5px;
 	}
 .trainingimage2{
 	height:650px;
 	width:800px;
-	opacity:0.15;	
-	margin-top:-261px;
+	opacity:0.15;
+	margin-top:-310px;
 	}
 li{
 	font-size:24px;
 	text-align:left;
 	margin-top:7.5px;
-	
+
 	}
 .bot{
 	Text-align:left;
 	color:white;
-	margin-top:-13px;
+	margin-top:-10px;
 	margin-left:40px;
 	font-size:12px;
+	}
+.garis{
+	color:white;
+	margin-top:-15px;
+	margin-left:40px;
 	}
 .ftext{
 	margin-left:40px;
@@ -268,5 +273,5 @@ li{
 	color:white;
 	}
 #tns{
-	
+
 	}
